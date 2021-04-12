@@ -1,7 +1,7 @@
 body {
-    max-width: 800px;
-    min-height: 800px;
-    margin: 0 auto;
+    max-width: 500px;
+    min-height: 300px;
+    margin: 400px auto;
 }
 
   .block {
@@ -11,8 +11,9 @@ body {
       transform-origin: 100% 26px;
       transform: rotate(0deg);
       position: absolute;
-      top: 400px;
-      left: 670px;
+      margin: 0 auto;
+      /* top: 400px;
+      left: 670px; */
       opacity: .1;
   }
 
@@ -160,6 +161,9 @@ body {
     border-radius: 50%;
   }
 
-
+.square:hover {
+  background-color: black;
+  width: 300px;
+}
 
   
