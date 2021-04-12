@@ -1,8 +1,21 @@
 body {
-    max-width: 500px;
-    min-height: 300px;
-    margin: 400px auto;
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 300px auto;
 }
+
+/* html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .p {
+  position: relative;
+} */
 
   .block {
       border: 1px dashed black;
@@ -16,6 +29,7 @@ body {
       left: 670px; */
       opacity: .1;
   }
+
 
   .block:nth-child(1) {
     transform: rotate(45deg);
